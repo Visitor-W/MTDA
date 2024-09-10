@@ -42,7 +42,7 @@ DBMF(ours)              | 0.494              | 0.501                      | 0.74
 MTDA-HSED(ours)         | **0.503**          | **0.514**                  | **0.757**
 
 ## Reference
-Our code is implemented based on [BEATs-CRNN](https://github.com/DCASE-REPO/DESED_task/tree/master/recipes/dcase2024_task4_baseline).<br>Specifically, experimental environment is based on [BEATs-CRNN](https://github.com/DCASE-REPO/DESED_task/tree/master/recipes/dcase2024_task4_baseline)<br>Thanks for their great work!
+
 
 
 ## Citation
