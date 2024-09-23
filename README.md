@@ -1,4 +1,4 @@
-# MTDA-HSED [![arxiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2401.04976)
+# MTDA-HSED [![arxiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2409.06196)
 The official implementation of *MTDA-HSED:  Mutual-Assistance Tuning and Dual-Branch Aggregating for Heterogeneous Sound Event Detection.* (Submiited to ICASSP 2025)<br>Authors: Zehao Wang, Haobo Yue, Zhicheng Zhang, Da Mu, Jin Tang,Jianqin Yin
 
 
@@ -47,11 +47,14 @@ MTDA-HSED(ours)         | **0.503**          | **0.514**                  | **0.
 
 ## Citation
 If this repository helped your works, please cite papers below! :kissing_heart:
-<!-- ```bib
-@article{yue2024fullfrequency,
-      title={Full-frequency dynamic convolution: a physical frequency-dependent convolution for sound event detection}, 
-      author={Haobo Yue and Zhicheng Zhang and Da Mu and Yonghao Dang and Jianqin Yin and Jin Tang},
-      journal={arXiv preprint arXiv:2401.04976},
+```bib
+@misc{wang2024mtdahsedmutualassistancetuningdualbranch,
+      title={MTDA-HSED: Mutual-Assistance Tuning and Dual-Branch Aggregating for Heterogeneous Sound Event Detection}, 
+      author={Zehao Wang and Haobo Yue and Zhicheng Zhang and Da Mu and Jin Tang and Jianqin Yin},
       year={2024},
+      eprint={2409.06196},
+      archivePrefix={arXiv},
+      primaryClass={cs.SD},
+      url={https://arxiv.org/abs/2409.06196}, 
 }
-``` -->
+```
