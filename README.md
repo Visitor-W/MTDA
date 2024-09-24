@@ -32,11 +32,11 @@ MTDA-HSED is evaluated on [DESED](https://github.com/turpaultn/DESED) and [Mestr
 
 Model                   | PSDS1    $\uparrow$| PSDS1(sed score) $\uparrow$| mpAUC $\uparrow$
 :----------------------:|:------------------:|:--------------------------:|:----------------:
-Baseline                | 0.370              | 0.579                      | 0.469            
-ATST-SED                | 0.370              | 0.579                      | 0.469            
-MONA                    | 0.387              | 0.624                      | 0.467            
-ADAPTER                 | 0.395              | 0.651                      | 0.495                       
-ACT-NET                 | 0.431              | 0.663                      | 0.521            
+Baseline                | 0.494              | 0.499                      | 0.709            
+ATST-SED                | 0.297              | 0.301                      | 0.554            
+MONA                    | 0.497              | 0.507                      | 0.709            
+ADAPTER                 | 0.494              | 0.503                      | 0.704                       
+ACT-NET                 | 0.308              | 0.316                      | 0.696            
 M3A(ours)               | <ins>0.503<ins>    | <ins>0.511</ins>           | <ins>0.753<ins>       
 DBMF(ours)              | 0.494              | 0.501                      | 0.748    
 MTDA-HSED(ours)         | **0.503**          | **0.514**                  | **0.757**
@@ -48,13 +48,10 @@ MTDA-HSED(ours)         | **0.503**          | **0.514**                  | **0.
 ## Citation
 If this repository helped your works, please cite papers below! :kissing_heart:
 ```bib
-@misc{wang2024mtdahsedmutualassistancetuningdualbranch,
-      title={MTDA-HSED: Mutual-Assistance Tuning and Dual-Branch Aggregating for Heterogeneous Sound Event Detection}, 
-      author={Zehao Wang and Haobo Yue and Zhicheng Zhang and Da Mu and Jin Tang and Jianqin Yin},
-      year={2024},
-      eprint={2409.06196},
-      archivePrefix={arXiv},
-      primaryClass={cs.SD},
-      url={https://arxiv.org/abs/2409.06196}, 
+@article{wang2024mtda,
+  title={MTDA-HSED: Mutual-Assistance Tuning and Dual-Branch Aggregating for Heterogeneous Sound Event Detection},
+  author={Wang, Zehao and Yue, Haobo and Zhang, Zhicheng and Mu, Da and Tang, Jin and Yin, Jianqin},
+  journal={arXiv preprint arXiv:2409.06196},
+  year={2024}
 }
 ```
